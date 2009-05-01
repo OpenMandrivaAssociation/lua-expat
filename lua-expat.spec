@@ -13,6 +13,7 @@ URL:            http://www.keplerproject.org/luaexpat/
 Source0:        http://luaforge.net/frs/download.php/2469/%{oname}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:  lua >= %{luaver}, lua-devel >= %{luaver}
+BuildRequires:  expat-devel
 Requires:       lua >= %{luaver}
 %description
 SAX XML parser based on expat, for lua.
