@@ -4,8 +4,8 @@
 %define oname luaexpat
 
 Name:           lua-expat
-Version:        1.1
-Release:        %mkrel 2
+Version:        1.2.0
+Release:        %mkrel 1
 Summary:        SAX XML parser based on expat, for lua
 Group:          Development/Other
 License:        MIT
