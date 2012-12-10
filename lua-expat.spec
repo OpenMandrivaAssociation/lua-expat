@@ -39,3 +39,17 @@ rm -rf $RPM_BUILD_ROOT
 %doc README  doc/us/*
 %{lualibdir}/*
 %{luapkgdir}/*
+
+
+%changelog
+* Tue Jun 21 2011 Oden Eriksson <oeriksson@mandriva.com> 1.2.0-1mdv2011.0
++ Revision: 686426
+- 1.2.0 (fixes CVE-2011-2188)
+- the mass rebuild of 2010.0 packages
+
+* Fri May 01 2009 Michael Scherer <misc@mandriva.org> 1.1-1mdv2010.0
++ Revision: 369965
+- add missing BuildRequires
+- import lua-expat
+
+
