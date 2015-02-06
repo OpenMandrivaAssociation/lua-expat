@@ -5,7 +5,7 @@
 
 Name:           lua-expat
 Version:        1.2.0
-Release:        %mkrel 1
+Release:        2
 Summary:        SAX XML parser based on expat, for lua
 Group:          Development/Other
 License:        MIT
