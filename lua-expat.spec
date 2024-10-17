@@ -9,7 +9,7 @@ Release:        2
 Summary:        SAX XML parser based on expat, for lua
 Group:          Development/Other
 License:        MIT
-URL:            http://www.keplerproject.org/luaexpat/
+URL:            https://www.keplerproject.org/luaexpat/
 Source0:        http://luaforge.net/frs/download.php/2469/%{oname}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:  lua >= %{luaver}, lua-devel >= %{luaver}
